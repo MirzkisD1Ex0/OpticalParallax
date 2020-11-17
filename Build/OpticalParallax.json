@@ -1,0 +1,16 @@
+{
+"companyName": "MirzkisD1Ex0",
+"productName": "OpticalParallax",
+"productVersion": "0.1",
+"dataUrl": "OpticalParallax.data.unityweb",
+"wasmCodeUrl": "OpticalParallax.wasm.code.unityweb",
+"wasmFrameworkUrl": "OpticalParallax.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.11f1"
+}
