@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>OpticalParallax</title>
+  <script src="Build/UnityLoader.js"></script>
+  <script>
+    UnityLoader.instantiate("unityContainer", "Build/OpticalParallax.json");
+  </script>
+
+  <style type="text/style">
+    html, body{
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body onresize="ChangeCanvasSize()">
+  <div id="unityContainer"></div>
+
+  <script>
+    function ChangeCanvasSize() {
+      document.getElementById("unityContainer").style.width = window.innerWidth + "px";
+      document.getElementById("unityContainer").style.height = window.innerHeight + "px";
+      document.getElementById("#canvas").style.width = window.innerWidth + "px";
+      document.getElementById("#canvas").style.height = window.innerHeight + "px";
+    }
+  </script>
+</body>
+
+</html>
