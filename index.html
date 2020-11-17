@@ -11,7 +11,7 @@
   </script>
 
   <style type="text/style">
-    html, body{
+    *{
       margin: 0;
       padding: 0;
       height: 100%;
@@ -20,8 +20,8 @@
   </style>
 </head>
 
-<body onresize="ChangeCanvasSize()">
-  <div id="unityContainer"></div>
+<body onresize="ChangeCanvasSize()" style="width:100%; height:100%; margin: 0;">
+  <div id="unityContainer" style="width:100%; height:100%"></div>
 
   <script>
     function ChangeCanvasSize() {
